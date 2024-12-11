@@ -12,4 +12,14 @@ The model comprises of 2 main aspects:
 1. Residual Neural Network(ResNet)
 2. Gated Recurrent Unit(GRU) <br/>
 
-This ensure that the model captures both the spatial features, which is carried out by ResNet, while also capturing the temporal aspect, which is carried out by GRU, as it would prove to be crucial in a video-based dataset scenario as in this case.
+This ensures that the model captures both the spatial features, which is carried out by ResNet, while also capturing the temporal aspect, which is carried out by GRU, as it would prove to be crucial in a video-based dataset scenario as it is in this case.
+
+## Model Summary
+
+Layer                          Output Shape                   Param #   
+================================================================================
+ResNet Backbone                (1, 512, 7, 7)                 21284672  
+GRU Layer                      (1, 7, 256)                    3148800   
+Fully Connected Layer          (1, 1)                         769       
+================================================================================
+Total Trainable Parameters: 24434241
