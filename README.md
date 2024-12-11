@@ -16,10 +16,8 @@ This ensures that the model captures both the spatial features, which is carried
 
 ## Model Summary
 
-Layer                          Output Shape                   Param #   
-================================================================================
-ResNet Backbone                (1, 512, 7, 7)                 21284672  
-GRU Layer                      (1, 7, 256)                    3148800   
-Fully Connected Layer          (1, 1)                         769       
-================================================================================
+1. ResNet Backbone                * Output Shape: (1, 512, 7, 7) * Number of Parameters: 21284672
+2. GRU Layer                      * Output Shape: (1, 7, 256)    * Number of Parameters: 3148800
+3. Fully Connected Layer          * Output Shape: (1, 1)         * Number of Parameters: 769       
+
 Total Trainable Parameters: 24434241
