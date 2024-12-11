@@ -27,3 +27,13 @@ This ensures that the model captures both the spatial features, which is carried
    * _Number of Parameters:_ 769       
 
 **_Total Trainable Parameters:_** 24434241
+
+## Evaluation
+
+On the test dataset, the following was achieved by the model described:
+* Accuracy: 0.75
+* Precision: 0.73
+* Recall: 0.79
+* F1 Score: 0.76
+
+It can described as a good and moderately effective model and further improvements could be made by focusing on boosting the precision by reducing false positive scenarios and recall by ensuring fewer deepfakes being missed by the model.
