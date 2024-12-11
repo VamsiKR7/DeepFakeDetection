@@ -11,4 +11,5 @@ The above dataset could be directly passed on as the input
 The model comprises of 2 main aspects:
 1. Residual Neural Network(ResNet)
 2. Gated Recurrent Unit(GRU) <br/>
+
 This ensure that the model captures both the spatial features, which is carried out by ResNet, while also capturing the temporal aspect, which is carried out by GRU, as it would prove to be crucial in a video-based dataset scenario as in this case.
