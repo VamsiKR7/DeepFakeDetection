@@ -1,4 +1,5 @@
 # DeepFakeDetection
+With the rise in DeepFake content on the internet with the help of autoencoders, generators, transformers, etc. it proves to be a crucial task to detect such manipulations often present the content to ensure that the technology is not utilised with malicious intent.
 DeepFake Detection using Residual Neural Network(ResNet) and Gated Recurrent Unit(GRU).
 
 Dataset utilised: [DFDC dataset](https://www.kaggle.com/competitions/deepfake-detection-challenge) <br/>
@@ -6,6 +7,8 @@ A portion of the DFDC dataset was selected and utilised for the creation of a da
 Processed Dataset: [Google Drive Link](https://drive.google.com/drive/folders/1gDD9b9mBlsXJjlR6PPZ_6e9po1m0P0Tp?usp=sharing) <br/>
 The above dataset could be directly passed on as the input
 
-The above Model Architecture utilises 2 concepts:
-1. Residual Neural Network
-2. Gated Recurrent Unit
+## Model Architecture
+The model comprises of 2 main aspects:
+1. Residual Neural Network(ResNet)
+2. Gated Recurrent Unit(GRU)
+This ensure that the model captures both the spatial features, which is carried out by ResNet, while also capturing the temporal aspect, which is carried out by GRU, as it would prove to be crucial in a video-based dataset scenario as in this case.
